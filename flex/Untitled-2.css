@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+    font-size: 35px;
+}
+
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+}
+
+.primero{
+    display: flex;
+    height: 15%;    
+}
+
+.p1{
+    width: 70%;
+    background-color: #F0223B;
+}
+
+.p2{
+    width: 30%;
+    background-color: #FA23A9;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; 
+}
+/* ----- TERMINA PRIMER CUADRADO ---- */
+
+.segundo{
+    display: flex;
+    height: 50%;
+}
+
+.p3{
+    width: 50%;
+    background-color: #8d0e96;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.segundo2{
+    width: 50%;
+}
+
+.p4{
+    background-color: #14e3b5;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p5{
+    background-color: #15967a;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----- TERMINA SEGUNDO CUADRO ---- */
+
+.tercero{
+    display: flex;
+    height: 15%; 
+}
+
+.p6{
+    width: 100%;
+    background-color: #d72be3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.p7{
+    width: 100%;
+    background-color: #f34aff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.p8{
+    width: 100%;
+    background-color: #7be32b;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* ----- TERMINA TERCER CUADRO ---- */
